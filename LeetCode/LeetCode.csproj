@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\October2020\Week1\Problem1 - RecentCounter\RecentCounter.cs" />
+    <Compile Include="Challenges\October2020\Week2\Problem1 - BinarySearch\BinarySearch.cs" />
+    <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
+    <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
     <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,8 +55,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Challenges\October2020\Week1\" />
-    <Folder Include="Challenges\October2020\Week2\" />
     <Folder Include="Challenges\October2020\Week3\" />
     <Folder Include="Challenges\October2020\Week4\" />
     <Folder Include="Challenges\October2020\Week5\" />
