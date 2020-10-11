@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,7 +56,6 @@
     <Folder Include="Challenges\October2020\Week3\" />
     <Folder Include="Challenges\October2020\Week4\" />
     <Folder Include="Challenges\October2020\Week5\" />
-    <Folder Include="Problem\Algorithms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
