@@ -48,6 +48,8 @@
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
     <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
+    <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\TwoNumbersAdder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
