@@ -12,6 +12,7 @@ namespace LeetCode.Problems.Algorithms.Problem1___TowSum
     /// <summary>
     /// Solves problem 1.
     /// Accepted by LeetCode.
+    /// Runtime: 240 ms, faster than 89.79% of C# online submissions (LeetCode submission message).
     /// </summary>
     public static class TowSum
     {

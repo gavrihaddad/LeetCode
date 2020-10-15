@@ -9,6 +9,7 @@ namespace LeetCode.Problems.Algorithms.Problem2___AddTwoNumbers
     /// <summary>
     /// Solves problem 2.
     /// Accepted by LeetCode.
+    /// Runtime: 96 ms, faster than 98.62% of C# online submissions (LeetCode submission message).
     /// </summary>
     public static class TwoNumbersAdder
     {

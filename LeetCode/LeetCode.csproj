@@ -50,6 +50,7 @@
     <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\ListNode.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\TwoNumbersAdder.cs" />
+    <Compile Include="Problems\Algorithms\Problem3 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
