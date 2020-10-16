@@ -9,10 +9,10 @@ namespace LeetCode.Problems.Algorithms.Problem3___LongestSubstringWithoutRepeati
     /// <summary>
     /// Solves problem 3.
     /// Accepted by LeetCode.
-    /// Runtime: 72 ms, faster than 98.80% of C# online submissions (LeetCode submission message).
+    /// Runtime: 72 ms, faster than 98.83% of C# online submissions (LeetCode submission message).
     /// </summary>
     public static class LongestSubString
-    {`
+    {
         public static int LengthOfLongestSubstring(string s)
         {
             Dictionary<char, int> mapping = new Dictionary<char, int>(); //Maps chars to their s index.

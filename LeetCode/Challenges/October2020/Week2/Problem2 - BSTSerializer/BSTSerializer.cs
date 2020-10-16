@@ -10,6 +10,7 @@ namespace LeetCode.Chalnges.October2020.Week2.Problem2___BSTSerializer
     /// Solves "Serialize and Deserialize BST".
     /// October 9 2020.
     /// Accepted by LeetCode.
+    /// Runtime: 116 ms, faster than 57.70% of C# online submissions (LeetCode submission details).
     /// </summary>
     public static class BSTSerializer
     {

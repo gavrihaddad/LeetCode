@@ -47,10 +47,12 @@
     <Compile Include="Challenges\October2020\Week2\Problem1 - BinarySearch\BinarySearch.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
+    <Compile Include="Challenges\October2020\Week3\Problem2 - Search Matrix\MatrixSearcher.cs" />
     <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\ListNode.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\TwoNumbersAdder.cs" />
     <Compile Include="Problems\Algorithms\Problem3 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
+    <Compile Include="Problems\Algorithms\Problem4 - MedianOfArrays\MedianOfArrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,7 +60,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Challenges\October2020\Week3\" />
     <Folder Include="Challenges\October2020\Week4\" />
     <Folder Include="Challenges\October2020\Week5\" />
   </ItemGroup>
