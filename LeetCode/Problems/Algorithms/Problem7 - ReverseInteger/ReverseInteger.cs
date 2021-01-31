@@ -11,9 +11,8 @@ namespace LeetCode.Problems.Algorithms.Problem7___ReverseInteger
     /// Accepted by LeetCode.
     ///Runtime: 36 ms, faster than 96.13% of C# online submissions for Reverse Integer. (LeetCode submission message).
     /// </summary>
-    class ReverseInteger
+    public static class ReverseInteger
     {
-        
         public static int Reverse(int x)
         {
             if (x == int.MinValue)

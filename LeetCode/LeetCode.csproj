@@ -56,6 +56,7 @@
     <Compile Include="Problems\Algorithms\Problem5 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
     <Compile Include="Problems\Algorithms\Problem6 - ZigZagConversion\ZigZagConversion.cs" />
     <Compile Include="Problems\Algorithms\Problem7 - ReverseInteger\ReverseInteger.cs" />
+    <Compile Include="Problems\Algorithms\Problem8 - String to Integer %28atoi%29\StringToInteger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
