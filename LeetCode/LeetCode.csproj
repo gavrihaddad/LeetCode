@@ -49,6 +49,7 @@
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
     <Compile Include="Challenges\October2020\Week3\Problem2 - Search Matrix\MatrixSearcher.cs" />
     <Compile Include="Problems\Algorithms\Problem1 - TowSum\TowSum.cs" />
+    <Compile Include="Problems\Algorithms\Problem12 - IntegerToRoman\IntegerToRoman.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\ListNode.cs" />
     <Compile Include="Problems\Algorithms\Problem2 - AddTwoNumbers\TwoNumbersAdder.cs" />
     <Compile Include="Problems\Algorithms\Problem3 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
