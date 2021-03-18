@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCode
 {
@@ -6,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine(RomanToInt());
 
             Console.ReadKey();
         }

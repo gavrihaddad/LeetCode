@@ -55,7 +55,6 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
                     return "IX";
                 default:
                     return "";
-                    break;
             }
         }
 
@@ -83,7 +82,6 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
                     return "XC";
                 default:
                     return "";
-                    break;
             }
         }
 
@@ -111,7 +109,6 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
                     return "CM";
                 default:
                     return "";
-                    break;
             }
         }
 
@@ -127,7 +124,6 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
                     return "MMM";
                 default:
                     return "";
-                    break;
             }
         }
 
@@ -175,7 +171,6 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
                     return a + c;
                 default:
                     return "";
-                    break;
             }
         }
 
