@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Problems.Algorithms.Problem14___LongestCommonPrefix
 {
+    /// <summary>
+    /// Solves problem 14.
+    /// Accepted by LeetCode.
+    ///Runtime: 88 ms, faster than 99.47% of C# online submissions (LeetCode submission message).
+    /// </summary>
     class LongestCommonPrefix
     {
         static public string GetLongestCommonPrefix(string[] strs)
