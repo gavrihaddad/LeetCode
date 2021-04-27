@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LeetCode.Problems.Algorithms.Problem41___FirstMissingPositive
 {
     /// <summary>
-    /// Solves problem 4.
+    /// Solves problem 41.
     /// Accepted by LeetCode.
     /// Runtime: 88 ms, faster than 86.71% of C# online submissions (LeetCode submission message).
     /// </summary>

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\2021April\Week4\Problem6 - PowerOfThree\PowerOfThree.cs" />
     <Compile Include="Challenges\October2020\Week1\Problem1 - RecentCounter\RecentCounter.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem1 - BinarySearch\BinarySearch.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
