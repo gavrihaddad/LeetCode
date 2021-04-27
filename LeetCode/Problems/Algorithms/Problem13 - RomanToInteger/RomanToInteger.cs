@@ -11,7 +11,7 @@ namespace LeetCode.Problems.Algorithms.Problem13___RomanToInteger
     /// Accepted by LeetCode.
     /// Runtime: 80 ms, faster than 95.95% of C# online submissions (LeetCode submission message).
     /// </summary>
-    class RomanToInteger
+    public static class RomanToInteger
     {
         static public int RomanToInt(string s)
         {

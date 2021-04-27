@@ -11,7 +11,7 @@ namespace LeetCode.Problems.Algorithms.Problem12___IntegerToRoman
     /// Solves problem 12.
     /// Accepted by LeetCode.
     /// </summary>
-    class IntegerToRoman
+    public static class IntegerToRoman
     {
         /// Runtime: 84 ms, faster than 94.23% of C# online submissions (LeetCode submission message).
         #region Solution 1: Brute force.
