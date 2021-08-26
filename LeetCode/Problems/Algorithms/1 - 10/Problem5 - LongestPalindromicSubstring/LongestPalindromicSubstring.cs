@@ -8,6 +8,7 @@ namespace LeetCode.Problems.Algorithms.Problem5___LongestPalindromicSubstring
 {
     public static class LongestPalindromicSubstring
     {
+        //TODO: improve (fix?)
         public static string LongestPalindrome(string s)
         {
             string result = "";

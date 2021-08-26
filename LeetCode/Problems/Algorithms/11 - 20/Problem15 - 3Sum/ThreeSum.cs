@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Problems.Algorithms.Problem15___3Sum
 {
+    //TODO: improve
     public static class ThreeSum
     {
         static public IList<IList<int>> GetThreeSum(int[] nums)
