@@ -59,6 +59,7 @@
     <Compile Include="Problems\Algorithms\1 - 10\Problem2 - AddTwoNumbers\TwoNumbersAdder.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem3 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem4 - MedianOfArrays\MedianOfArrays.cs" />
+    <Compile Include="Problems\Algorithms\11 - 20\Problem20 - Valid Parentheses\ValidParentheses.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem5 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem6 - ZigZagConversion\ZigZagConversion.cs" />
