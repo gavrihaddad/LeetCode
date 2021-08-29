@@ -61,6 +61,8 @@
     <Compile Include="Problems\Algorithms\1 - 10\Problem03 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem04 - MedianOfArrays\MedianOfArrays.cs" />
     <Compile Include="Problems\Algorithms\11 - 20\Problem20 - Valid Parentheses\ValidParentheses.cs" />
+    <Compile Include="Problems\Algorithms\21 - 30\Problem21 - MergeTwoSortedLists\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\21 - 30\Problem21 - MergeTwoSortedLists\MergeTwoSortedLists.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\ListNode.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\MergekSortedLists.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
