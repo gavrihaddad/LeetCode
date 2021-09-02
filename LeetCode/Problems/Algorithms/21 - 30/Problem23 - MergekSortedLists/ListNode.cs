@@ -2,8 +2,6 @@
 {
     public static partial class MergekSortedLists
     {
-        #endregion
-
         public class ListNode
         {
             public int val;
