@@ -49,6 +49,7 @@
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
     <Compile Include="Challenges\October2020\Week3\Problem2 - Search Matrix\MatrixSearcher.cs" />
+    <Compile Include="Problems\Algorithms\21 - 30\Problem24 - SwapNodesInPairs\ListNode.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem01 - TowSum\TowSum.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem10 - RegularExpressionMatching\RegularExpressionMatching.cs" />
     <Compile Include="Problems\Algorithms\11 - 20\Problem12 - IntegerToRoman\IntegerToRoman.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Problems\Algorithms\21 - 30\Problem21 - MergeTwoSortedLists\MergeTwoSortedLists.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\ListNode.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\MergekSortedLists.cs" />
+    <Compile Include="Problems\Algorithms\21 - 30\Problem24 - SwapNodesInPairs\SwapNodesInPairs.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem26 - RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem05 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />

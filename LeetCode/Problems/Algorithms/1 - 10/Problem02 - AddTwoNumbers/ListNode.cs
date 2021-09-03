@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode.Problems.Algorithms.Problem2___AddTwoNumbers
+﻿namespace LeetCode.Problems.Algorithms.Problem2___AddTwoNumbers
 {
+    /// <summary>
+    /// A ListNode class supplied by LeetCode.
+    /// </summary>
     public class ListNode
     {
         public int val;
