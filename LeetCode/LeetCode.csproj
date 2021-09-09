@@ -74,6 +74,7 @@
     <Compile Include="Problems\Algorithms\1 - 10\Problem07 - ReverseInteger\ReverseInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem08 - String to Integer %28atoi%29\StringToInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem09 - PalindromeNumber\PalindromeNumber.cs" />
+    <Compile Include="Problems\Algorithms\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -102,7 +102,7 @@ namespace LeetCode.Problems.Algorithms._21___30.Problem23___MergekSortedLists
 
         #endregion
 
-        #region Solution 3: recursive, fast.
+        #region Solution 3: recursive, fast (96 ms).
 
         public static ListNode MergeKLists3(ListNode[] lists)
         {
