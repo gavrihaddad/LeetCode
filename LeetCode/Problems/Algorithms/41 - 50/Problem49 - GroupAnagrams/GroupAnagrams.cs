@@ -9,7 +9,7 @@ namespace LeetCode.Problems.Algorithms._41___50.Problem49___GroupAnagrams
     /// <summary>
     /// Solves problem 41.
     /// Accepted by LeetCode.
-    /// Runtime: 276 ms, faster than 97.05% of C# online submissions (LeetCode submission message).
+    /// Runtime: 272 ms, faster than 98.82% of C# online submissions (LeetCode submission message).
     /// </summary>
     public static class GroupAnagrams
     {
@@ -72,7 +72,7 @@ namespace LeetCode.Problems.Algorithms._41___50.Problem49___GroupAnagrams
 
         #endregion
 
-        #region Solution 2: Based on the Fundamental theorem of arithmetic, fast (276 ms)
+        #region Solution 2: Based on the Fundamental theorem of arithmetic, fast (272 ms)
 
         public static IList<IList<string>> GetGroupAnagrams2(string[] strs)
         {
