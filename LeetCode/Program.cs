@@ -8,8 +8,84 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            
+            int[][] A = new int[6][];
+            A[0] = new int[6] { 1, 2, 3, 4, 5, 6 };
+            A[1] = new int[6] { 7, 8, 9, 10, 11, 12 };
+            A[2] = new int[6] { 13, 14, 15, 16, 17, 18 };
+            A[3] = new int[6] { 19, 20, 21, 22, 23, 24 };
+            A[4] = new int[6] { 25, 26, 27, 28, 29, 30 };
+            A[5] = new int[6] { 31, 32, 33, 34, 35, 36 };
+
+            int[][] B = new int[4][];
+            B[0] = new int[4] { 5, 1, 9, 11 };
+            B[1] = new int[4] { 2, 4, 8, 10 };
+            B[2] = new int[4] { 13, 3, 6, 7 };
+            B[3] = new int[4] { 15, 14, 12, 16 };
+
+            int[][] C = new int[1][];
+            C[0] = new int[1] { 1 };
+
+            Rotate(C);
+
             Console.ReadKey();
+        }
+
+        public static void Rotate(int[][] matrix)
+        {
+            int n = matrix.Length;
+
+            PrintMatrix();
+
+            for (int round = 0; n > 1; n -= 2, round++) 
+            {
+                for (int i = 0; i < n - 1; i++)  
+                {
+                    Index index1 = new Index(round, round + i);
+                    Index index2 = new Index(round + i, n + round - 1);
+                    Index index3 = new Index(n + round - 1, n + round - i - 1);
+                    Index index4 = new Index(n + round - i - 1, round);
+
+                    SwapFour(index1, index2, index3, index4);
+                    PrintMatrix();
+                }
+
+                Console.WriteLine("round");
+            }
+
+            void SwapFour(Index index1, Index index2, Index index3, Index index4)
+            {
+                int temp = matrix[index4.Row][index4.Column];
+                matrix[index4.Row][index4.Column] = matrix[index3.Row][index3.Column];
+                matrix[index3.Row][index3.Column] = matrix[index2.Row][index2.Column];
+                matrix[index2.Row][index2.Column] = matrix[index1.Row][index1.Column];
+                matrix[index1.Row][index1.Column] = temp;
+            }
+
+            void PrintMatrix()
+            {
+                for (int i = 0; i < matrix.Length; i++)
+                {
+                    for (int j = 0; j < matrix.Length; j++)
+                    {
+                        Console.Write(matrix[i][j].ToString() + " ");
+                    }
+
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+
+    struct Index
+    {
+        public int Row;
+        public int Column;
+
+        public Index(int row, int column)
+        {
+            Row = row;
+            Column = column;
         }
     }
 }
