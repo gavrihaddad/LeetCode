@@ -74,6 +74,8 @@
     <Compile Include="Problems\Algorithms\1 - 10\Problem07 - ReverseInteger\ReverseInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem08 - String to Integer %28atoi%29\StringToInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem09 - PalindromeNumber\PalindromeNumber.cs" />
+    <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\Index.cs" />
+    <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +86,9 @@
   <ItemGroup>
     <Folder Include="Challenges\October2020\Week4\" />
     <Folder Include="Challenges\October2020\Week5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\Example.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
