@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -77,6 +78,7 @@
     <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\Index.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
+    <Compile Include="Problems\Algorithms\61 - 70\Problem62 - UniquePaths\UniquePaths.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

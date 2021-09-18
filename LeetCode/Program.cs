@@ -14,6 +14,29 @@ namespace LeetCode
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*private static string Mult(string num1, string num2)
         {
             if (num1 == "0" || num2 == "0")
@@ -100,6 +123,7 @@ namespace LeetCode
             }
         }*/
 
+
 //Runtime: 236 ms, faster than 70.77% of C# online submissions for Remove Element.
 /*public static int RemoveElement(int[] nums, int val)
         {
@@ -126,4 +150,56 @@ namespace LeetCode
             }
         }*/
 
+/*
+             int[] A1 = new int[] { 1, 2, 3 };
+            int[] A2 = new int[] { 3, 9, 0, 1, 4 };
+            int[] A3 = new int[] { 2, 3, 1, 1, 4 };
+            int[] A4 = new int[] { 1, 2};
+            int[] A5 = new int[] { 1 };
+            int[] A6 = new int[] { 3, 2, 1 };
+            int[] A7 = new int[] { 1, 2, 1, 1, 1 };
+            int[] A8 = new int[] { 3, 4, 3, 1, 0, 7, 0, 3, 0, 2, 0, 3 };
+            int[] A9 = new int[] { 2, 3, 5, 9, 0, 9, 7, 2, 7, 9, 1, 7, 4, 6, 2, 1, 0, 0, 1, 4, 9, 0, 6, 3 };
 
+            Console.WriteLine(Jump(A1));
+            Console.WriteLine(Jump(A2));
+            Console.WriteLine(Jump(A3));
+            Console.WriteLine(Jump(A4));
+            Console.WriteLine(Jump(A5));
+            Console.WriteLine(Jump(A6));
+            Console.WriteLine(Jump(A7));
+            Console.WriteLine(Jump(A8));
+            Console.WriteLine(Jump(A9));
+ */
+/*public static int Jump(int[] nums)
+        {
+            int[] jumpSizes = new int[nums.Length];
+            jumpSizes[nums.Length - 1] = 0;
+
+            for (int i = nums.Length - 2; i >= 0; i--)
+            {
+                if (nums[i] == 0)
+                {
+                    jumpSizes[i] = 10000;
+                }
+                else if (nums[i] >= nums.Length - i - 1) 
+                {
+                    jumpSizes[i] = 1;
+                }
+                else
+                {
+                    int minJump = jumpSizes[i + 1];
+                    for (int j = 1; j < nums[i]; j++)
+                    {
+                        if (jumpSizes[i + j + 1] < minJump) 
+                        {
+                            minJump = jumpSizes[i + j + 1];
+                        }
+                    }
+
+                    jumpSizes[i] = minJump + 1;
+                }
+            }
+
+            return jumpSizes[0];
+        }*/
