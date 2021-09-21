@@ -69,6 +69,7 @@
     <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\MergekSortedLists.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem24 - SwapNodesInPairs\SwapNodesInPairs.cs" />
     <Compile Include="Problems\Algorithms\21 - 30\Problem26 - RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="Problems\Algorithms\21 - 30\Problem27 - RemoveElement\RemoveElement.cs" />
     <Compile Include="Problems\Algorithms\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem05 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
     <Compile Include="Problems\Algorithms\1 - 10\Problem06 - ZigZagConversion\ZigZagConversion.cs" />
