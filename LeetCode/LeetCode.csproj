@@ -50,36 +50,37 @@
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\BSTSerializer.cs" />
     <Compile Include="Challenges\October2020\Week2\Problem2 - BSTSerializer\TreeNode.cs" />
     <Compile Include="Challenges\October2020\Week3\Problem2 - Search Matrix\MatrixSearcher.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem24 - SwapNodesInPairs\ListNode.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem01 - TowSum\TowSum.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem10 - RegularExpressionMatching\RegularExpressionMatching.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem12 - IntegerToRoman\IntegerToRoman.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem13 - RomanToInteger\RomanToInteger.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem14 - LongestCommonPrefix\LongestCommonPrefix.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem15 - 3Sum\ThreeSum.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem17 - LetterCombinationsOfAPhoneNumber\LetterCombinationsOfAPhoneNumber.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem02 - AddTwoNumbers\ListNode.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem02 - AddTwoNumbers\TwoNumbersAdder.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem03 - LongestSubstringWithoutRepeatingCharacters\LongestSubString.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem04 - MedianOfArrays\MedianOfArrays.cs" />
-    <Compile Include="Problems\Algorithms\11 - 20\Problem20 - Valid Parentheses\ValidParentheses.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem21 - MergeTwoSortedLists\ListNode.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem21 - MergeTwoSortedLists\MergeTwoSortedLists.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\ListNode.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem23 - MergekSortedLists\MergekSortedLists.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem24 - SwapNodesInPairs\SwapNodesInPairs.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem26 - RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.cs" />
-    <Compile Include="Problems\Algorithms\21 - 30\Problem27 - RemoveElement\RemoveElement.cs" />
-    <Compile Include="Problems\Algorithms\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem05 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem06 - ZigZagConversion\ZigZagConversion.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem07 - ReverseInteger\ReverseInteger.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem08 - String to Integer %28atoi%29\StringToInteger.cs" />
-    <Compile Include="Problems\Algorithms\1 - 10\Problem09 - PalindromeNumber\PalindromeNumber.cs" />
-    <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\Index.cs" />
-    <Compile Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
-    <Compile Include="Problems\Algorithms\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
-    <Compile Include="Problems\Algorithms\61 - 70\Problem62 - UniquePaths\UniquePaths.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem24 - SwapNodesInPairs\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem01 - TowSum - 95.26\TowSum.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem10 - RegularExpressionMatching\RegularExpressionMatching.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem12 - IntegerToRoman\IntegerToRoman.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem13 - RomanToInteger\RomanToInteger.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem14 - LongestCommonPrefix\LongestCommonPrefix.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem15 - 3Sum\ThreeSum.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem17 - LetterCombinationsOfAPhoneNumber\LetterCombinationsOfAPhoneNumber.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem02 - AddTwoNumbers - 98.56\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem02 - AddTwoNumbers - 98.56\TwoNumbersAdder.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem03 - LongestSubstringWithoutRepeatingCharacters - 98.83\LongestSubString.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem04 - MedianOfArrays - 90.73\MedianOfArrays.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\11 - 20\Problem20 - Valid Parentheses\ValidParentheses.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem21 - MergeTwoSortedLists\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem21 - MergeTwoSortedLists\MergeTwoSortedLists.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem23 - MergekSortedLists\ListNode.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem23 - MergekSortedLists\MergekSortedLists.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem24 - SwapNodesInPairs\SwapNodesInPairs.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem26 - RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\21 - 30\Problem27 - RemoveElement\RemoveElement.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem05 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem06 - ZigZagConversion\ZigZagConversion.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem07 - ReverseInteger\ReverseInteger.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem08 - String to Integer %28atoi%29\StringToInteger.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem09 - PalindromeNumber\PalindromeNumber.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\Index.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\61 - 70\Problem62 - UniquePaths\UniquePaths.cs" />
+    <Compile Include="Problems\Algorithms\1001 - 2000\1901 - 2000\1991 - 2000\Problem2000 - ReversePrefixOfWord\ReversePrefixOfWord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -91,7 +92,7 @@
     <Folder Include="Challenges\October2020\Week5\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Problems\Algorithms\41 - 50\Problem48 - RotateImage\Example.txt" />
+    <Content Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\Example.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

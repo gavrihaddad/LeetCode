@@ -15,10 +15,10 @@ namespace LeetCode.Problems.Algorithms.Problem5___LongestPalindromicSubstring
 
             for (int i = 0; i < s.Length; i++)
             {
-                for (int j = 0; j <= i; j++) 
+                for (int j = 0; j <= i; j++)
                 {
                     string current = s.Substring(j, s.Length - i);
-                    if (IsPalindrome(current)) 
+                    if (IsPalindrome(current))
                     {
                         return current;
                     }
@@ -26,19 +26,19 @@ namespace LeetCode.Problems.Algorithms.Problem5___LongestPalindromicSubstring
             }
 
             return result;
-        }
 
-        public static bool IsPalindrome(string s)
-        {
-            for (int i = 0; i < s.Length / 2; i++)
+            bool IsPalindrome(string str)
             {
-                if (s[i] != s[s.Length - i - 1])
+                for (int i = 0; i < str.Length / 2; i++)
                 {
-                    return false;
+                    if (str[i] != str[str.Length - i - 1])
+                    {
+                        return false;
+                    }
                 }
-            }
 
-            return true;
+                return true;
+            }
         }
     }
 }

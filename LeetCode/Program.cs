@@ -11,6 +11,7 @@ namespace LeetCode
 
             Console.ReadKey();
         }
+
     }
 }
 
@@ -160,6 +161,41 @@ namespace LeetCode
         private static string Mult2(string num1, string num2)
         {
             string res = "";
+
+            return res;
+        }*/
+
+
+/*//2001
+        //Runtime: 540 ms, faster than 99.42% of C# online submissions for Number of Pairs of Interchangeable Rectangles.
+        public static long InterchangeableRectangles(int[][] rectangles)
+        {
+            Dictionary<double, long> interchangeables =
+                                new Dictionary<double, long>();
+
+            foreach (int[] rect in rectangles)
+            {
+                double ratio = (double)rect[0] / rect[1];
+
+                if(interchangeables.ContainsKey(ratio))
+                {
+                    interchangeables[ratio]++;
+                }
+                else
+                {
+                    interchangeables.Add(ratio, 1);
+                }
+            }
+
+            long res = 0;
+
+            foreach(var group in interchangeables)
+            {
+                if (group.Value > 1)
+                {
+                    res += ((group.Value * (group.Value - 1)) / 2);
+                }
+            }
 
             return res;
         }*/
