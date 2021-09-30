@@ -76,6 +76,7 @@
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem07 - ReverseInteger\ReverseInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem08 - String to Integer %28atoi%29\StringToInteger.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\1 - 10\Problem09 - PalindromeNumber\PalindromeNumber.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem46 - Permutations\Permutations.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\Index.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />

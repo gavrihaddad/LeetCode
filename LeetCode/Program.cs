@@ -29,40 +29,8 @@ namespace LeetCode
 
 
 
-        /*
-        //Runtime: 224 ms, faster than 99.90% of C# online submissions for Permutations.
-        public static IList<IList<int>> Permute(int[] nums)
-        {
-            return MyPermute(nums.ToList());
+        
 
-            IList<IList<int>> MyPermute(List<int> list)
-            {
-                List<IList<int>> permutations = new List<IList<int>>();
-
-                if (list.Count == 1)
-                {
-                    permutations.Add(new List<int>() { list[0] });
-                }
-                else
-                {
-                    for (int i = 0; i < list.Count; i++)
-                    {
-                        List<int> tempList = new List<int>(list);
-                        tempList.RemoveAt(i);
-
-                        var iPermutations = MyPermute(tempList);
-
-                        foreach(var permutation in iPermutations)
-                        {
-                            permutation.Insert(0, list[i]);
-                            permutations.Add(permutation);
-                        }
-                    }
-                }
-
-                return permutations;
-            }
-        }*/
 
 /*
 int[] A1 = new int[] { 1, 2, 3 };
