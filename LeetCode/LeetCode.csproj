@@ -79,6 +79,7 @@
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\Index.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem48 - RotateImage\RotateImage.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
+    <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\41 - 50\Problem50 - Pow%28x, n%29\PowXN.cs" />
     <Compile Include="Problems\Algorithms\1 - 1000\1 - 100\61 - 70\Problem62 - UniquePaths\UniquePaths.cs" />
     <Compile Include="Problems\Algorithms\1001 - 2000\1901 - 2000\1991 - 2000\Problem2000 - ReversePrefixOfWord\ReversePrefixOfWord.cs" />
     <Compile Include="Problems\Algorithms\2001 - 3000\2001 - 2100\2001 - 2010\Problem2001 - NumberOfPairsOfInterchangeableRectangles\NumberOfPairsOfInterchangeableRectangles.cs" />
