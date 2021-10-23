@@ -9,7 +9,6 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-
             Console.ReadKey();
         }
     }
@@ -18,64 +17,105 @@ namespace LeetCode
 
 
 
-        /*public static IList<IList<int>> PermuteUnique(int[] nums)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*public static IList<IList<int>> PermuteUnique(int[] nums)
+{
+    var dupPermutations = Permute(nums.ToList());
+
+    for (int i = 0; i < dupPermutations.Count - 1; i++) 
+    {
+        for (int j = i; j < dupPermutations.Count; j++) 
         {
-            var dupPermutations = Permute(nums.ToList());
-
-            for (int i = 0; i < dupPermutations.Count - 1; i++) 
+            if (IsEqual(dupPermutations[i], dupPermutations[j]))
             {
-                for (int j = i; j < dupPermutations.Count; j++) 
-                {
-                    if (IsEqual(dupPermutations[i], dupPermutations[j]))
-                    {
-                        dupPermutations.RemoveAt(j);
-                    }
-                }
+                dupPermutations.RemoveAt(j);
             }
+        }
+    }
 
-            return dupPermutations;
+    return dupPermutations;
 
-            bool IsEqual(IList<int> l1, IList<int> l2)
+    bool IsEqual(IList<int> l1, IList<int> l2)
+    {
+        for (int i = 0; i < l1.Count; i++)
+        {
+            if (l1[i] != l2[i])
             {
-                for (int i = 0; i < l1.Count; i++)
-                {
-                    if (l1[i] != l2[i])
-                    {
-                        return false;
-                    }
-                }
-
-                return true;
+                return false;
             }
         }
 
-        public static IList<IList<int>> Permute(IList<int> list)
+        return true;
+    }
+}
+
+public static IList<IList<int>> Permute(IList<int> list)
+{
+    List<IList<int>> permutations = new List<IList<int>>();
+
+    if (list.Count == 1)
+    {
+        permutations.Add(new List<int>() { list[0] });
+    }
+    else
+    {
+        for (int i = 0; i < list.Count; i++)
         {
-            List<IList<int>> permutations = new List<IList<int>>();
+            List<int> tempList = new List<int>(list);
+            tempList.RemoveAt(i);
 
-            if (list.Count == 1)
+            var iPermutations = Permute(tempList);
+
+            foreach (var permutation in iPermutations)
             {
-                permutations.Add(new List<int>() { list[0] });
+                permutation.Insert(0, list[i]);
+                permutations.Add(permutation);
             }
-            else
-            {
-                for (int i = 0; i < list.Count; i++)
-                {
-                    List<int> tempList = new List<int>(list);
-                    tempList.RemoveAt(i);
+        }
+    }
 
-                    var iPermutations = Permute(tempList);
-
-                    foreach (var permutation in iPermutations)
-                    {
-                        permutation.Insert(0, list[i]);
-                        permutations.Add(permutation);
-                    }
-                }
-            }
-
-            return permutations;
-        }*/
+    return permutations;
+}*/
 /*
               char[][] board =
             {

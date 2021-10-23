@@ -71,6 +71,7 @@
     <Compile Include="Problems\Algorithms\0021 - 0030\Problem26 - RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Problems\Algorithms\0021 - 0030\Problem27 - RemoveElement\RemoveElement.cs" />
     <Compile Include="Problems\Algorithms\0031 - 0040\Problem36 - ValidSudoku\ValidSudoku.cs" />
+    <Compile Include="Problems\Algorithms\0031 - 0040\Problem38 - CountAndSay\CountAndSay.cs" />
     <Compile Include="Problems\Algorithms\0041 - 0050\Problem41 - FirstMissingPositive\FirstMissingPositive.cs" />
     <Compile Include="Problems\Algorithms\0001 - 0010\Problem05 - LongestPalindromicSubstring\LongestPalindromicSubstring.cs" />
     <Compile Include="Problems\Algorithms\0001 - 0010\Problem06 - ZigZagConversion\ZigZagConversion.cs" />
