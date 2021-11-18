@@ -21,7 +21,7 @@ namespace LeetCode.Problems.Algorithms._0031___0040.Problem38___CountAndSay
             }
             else
             {
-                string digits = CountAndSay(n - 1);
+                string digits = GetCountAndSay(n - 1);
 
                 if (digits.Length == 1)
                 {
