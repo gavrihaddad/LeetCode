@@ -84,6 +84,7 @@
     <Compile Include="Problems\Algorithms\0041 - 0050\Problem49 - GroupAnagrams\GroupAnagrams.cs" />
     <Compile Include="Problems\Algorithms\0041 - 0050\Problem50 - Pow%28x, n%29\PowXN.cs" />
     <Compile Include="Problems\Algorithms\0061 - 0070\Problem62 - UniquePaths\UniquePaths.cs" />
+    <Compile Include="Problems\Algorithms\0071 - 0080\Problem75 - SortColors\SortColors.cs" />
     <Compile Include="Problems\Algorithms\1991 - 2000\Problem2000 - ReversePrefixOfWord\ReversePrefixOfWord.cs" />
     <Compile Include="Problems\Algorithms\2001 - 2010\Problem2001 - NumberOfPairsOfInterchangeableRectangles\NumberOfPairsOfInterchangeableRectangles.cs" />
     <Compile Include="Program.cs" />
